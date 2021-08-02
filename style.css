@@ -78,9 +78,11 @@ button {
     text-align: center;
 } */
 
-.fourImages{
-    display: flex;
-    height:200px;
+.fourImages
+    {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-template-rows: 300px 300px;
 }
 
 footer{
