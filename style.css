@@ -80,6 +80,7 @@ button {
 
 .fourImages{
     display: flex;
+    height:200px;
 }
 
 footer{
