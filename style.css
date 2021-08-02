@@ -81,7 +81,7 @@ button {
 .fourImages
     {
                 display: grid;
-                grid-template-columns: auto auto auto auto;
+                grid-template-columns: repeat(4, 1fr);
                 grid-template-rows: 300px;
         gap: 0px;
 }
